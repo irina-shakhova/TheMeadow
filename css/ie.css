@@ -1,0 +1,55 @@
+.clearfix, .content, .footer, .gallery {
+	zoom: 1;
+}
+
+.header_left-first, .header_right-first {
+	filter: alpha(opacity=80)
+}
+
+.header_left-second, .header_right-second {
+	filter: alpha(opacity=60)
+}
+
+.header_left-third, .header_right-third {
+	filter: alpha(opacity=40)
+}
+
+.header_left-fouth, .header_right-fouth {
+	filter: alpha(opacity=20)
+}
+
+.corner {
+	background: transparent url(../images/menu-corner.png) 0 0 no-repeat;
+    height: 55px;
+    top: -2px;
+    right: -15px;
+}
+
+ul.menu li a:hover .corner,
+ul.menu li.ui-state-active .corner {
+	background: transparent url(../images/menu-corner.png) 0 -55px no-repeat;
+}
+
+.header_right-wrapper, .header_left-wrapper {
+	display: none;
+}
+
+.header_frame {
+	background: transparent;
+}
+
+.header_main-img {
+	*float: none;
+}
+
+.header_frame .header_frame-center {
+	*width: 100%;
+}
+
+.plan .room {
+	filter: alpha(opacity=0);
+}
+
+.plan .room:hover {
+	filter: alpha(opacity=100);
+}
